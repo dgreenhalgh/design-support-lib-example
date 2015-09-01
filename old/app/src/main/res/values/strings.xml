@@ -3,4 +3,6 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+    <string name="fragment_page_index_label">Fragment %1$s</string>
 </resources>
