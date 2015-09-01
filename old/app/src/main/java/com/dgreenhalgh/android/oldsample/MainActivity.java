@@ -1,12 +1,12 @@
 package com.dgreenhalgh.android.oldsample;
 
 import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
+import android.support.v7.app.AppCompatActivity;
 
 import com.astuetz.PagerSlidingTabStrip;
 
-public class MainActivity extends FragmentActivity {
+public class MainActivity extends AppCompatActivity {
 
     private ViewPager mViewPager;
     private PagerSlidingTabStrip mPagerSlidingTabStrip;
