@@ -1,0 +1,18 @@
+<android.support.percent.PercentFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                            xmlns:app="http://schemas.android.com/apk/res-auto"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent">
+
+    <View
+        app:layout_widthPercent="50%"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:background="#ff0000"/>
+
+    <View
+        app:layout_widthPercent="50%"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:background="#0000ff"/>
+
+</android.support.percent.PercentFrameLayout>
