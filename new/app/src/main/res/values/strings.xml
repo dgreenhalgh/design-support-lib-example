@@ -9,4 +9,5 @@
     <string name="title_activity_text_input_demo">TextInputDemoActivity</string>
     <string name="title_activity_floating_action_button_demo">FloatingActionButtonDemoActivity
     </string>
+    <string name="title_activity_snackbar_demo">SnackbarDemoActivity</string>
 </resources>

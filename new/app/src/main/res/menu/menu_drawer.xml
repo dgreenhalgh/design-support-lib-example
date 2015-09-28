@@ -9,7 +9,7 @@
                 android:title="FloatingActionButton"/>
             <item
                 android:id="@+id/sub_item_second"
-                android:title="Sub second"/>
+                android:title="Snackbar"/>
         </menu>
 
     </item>

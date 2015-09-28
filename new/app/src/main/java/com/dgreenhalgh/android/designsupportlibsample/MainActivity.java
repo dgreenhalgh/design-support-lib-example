@@ -39,8 +39,12 @@ public class MainActivity extends AppCompatActivity {
             public boolean onNavigationItemSelected(MenuItem menuItem) {
                 switch (menuItem.getItemId()) {
                     case R.id.sub_item_first:
-                        Intent floatingActionButtonIntent = FloatingActionButtonDemoActivity.newIntent(context);
-                        startActivity(floatingActionButtonIntent);
+                        Intent floatingActionButtonDemoIntent = FloatingActionButtonDemoActivity.newIntent(context);
+                        startActivity(floatingActionButtonDemoIntent);
+                        return true;
+                    case R.id.sub_item_second:
+                        Intent snackbarDemoIntent = SnackbarDemoActivity.newIntent(context);
+                        startActivity(snackbarDemoIntent);
                         return true;
                     case R.id.drawer_item_second:
                         Intent percentDemoIntent = PercentDemoActivity.newIntent(context);
