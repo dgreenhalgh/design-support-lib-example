@@ -1,5 +1,6 @@
 package com.dgreenhalgh.android.designsupportlibsample;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
@@ -32,12 +33,22 @@ public class MainActivity extends AppCompatActivity {
 
         mNavigationView = (NavigationView) findViewById(R.id.activity_main_navigationView);
         mNavigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+            Context context  = mNavigationView.getContext();
+
             @Override
             public boolean onNavigationItemSelected(MenuItem menuItem) {
                 switch (menuItem.getItemId()) {
+                    case R.id.sub_item_first:
+                        Intent floatingActionButtonIntent = FloatingActionButtonDemoActivity.newIntent(context);
+                        startActivity(floatingActionButtonIntent);
+                        return true;
                     case R.id.drawer_item_second:
-                        Intent intent  = PercentDemoActivity.newIntent(mNavigationView.getContext());
-                        startActivity(intent);
+                        Intent percentDemoIntent = PercentDemoActivity.newIntent(context);
+                        startActivity(percentDemoIntent);
+                        return true;
+                    case R.id.drawer_item_third:
+                        Intent textInputDemoIntent = TextInputDemoActivity.newIntent(context);
+                        startActivity(textInputDemoIntent);
                         return true;
                 }
 

@@ -6,4 +6,7 @@
 
     <string name="fragment_page_index_label">Fragment %1$s</string>
     <string name="title_activity_percent_demo">PercentDemoActivity</string>
+    <string name="title_activity_text_input_demo">TextInputDemoActivity</string>
+    <string name="title_activity_floating_action_button_demo">FloatingActionButtonDemoActivity
+    </string>
 </resources>

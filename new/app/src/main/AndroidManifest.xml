@@ -20,6 +20,14 @@
             android:name=".PercentDemoActivity"
             android:label="@string/title_activity_percent_demo" >
         </activity>
+        <activity
+            android:name=".TextInputDemoActivity"
+            android:label="@string/title_activity_text_input_demo" >
+        </activity>
+        <activity
+            android:name=".FloatingActionButtonDemoActivity"
+            android:label="@string/title_activity_floating_action_button_demo" >
+        </activity>
     </application>
 
 </manifest>

@@ -1,27 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-
     <item
         android:id="@+id/drawer_item_first"
         android:title="First">
-
         <menu>
             <item
                 android:id="@+id/sub_item_first"
-                android:title="Sub first"/>
-
+                android:title="FloatingActionButton"/>
             <item
                 android:id="@+id/sub_item_second"
                 android:title="Sub second"/>
         </menu>
 
     </item>
-
     <item
         android:id="@+id/drawer_item_second"
         android:title="PercentFrameLayout"/>
-
     <item
         android:id="@+id/drawer_item_third"
-        android:title="Third"/>
+        android:title="TextInputLayout"/>
 </menu>
