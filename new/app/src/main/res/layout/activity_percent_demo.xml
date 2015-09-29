@@ -7,12 +7,12 @@
         app:layout_widthPercent="50%"
         android:layout_height="match_parent"
         android:layout_gravity="left"
-        android:background="@color/red"/>
+        android:background="@color/yellow"/>
 
     <View
         app:layout_widthPercent="50%"
         android:layout_height="match_parent"
         android:layout_gravity="right"
-        android:background="@color/blue"/>
+        android:background="@color/red"/>
 
 </android.support.percent.PercentFrameLayout>
