@@ -14,11 +14,15 @@
         <activity
             android:name=".PercentDemoActivity"
             android:label="@string/title_activity_percent_demo" >
-
         </activity>
         <activity
             android:name=".SnackbarDemoActivity"
             android:label="@string/title_activity_snackbar_demo" >
+
+        </activity>
+        <activity
+            android:name=".FloatingActionButtonDemoActivity"
+            android:label="@string/title_activity_floating_action_button_demo" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
