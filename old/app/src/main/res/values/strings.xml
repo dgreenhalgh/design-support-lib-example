@@ -9,4 +9,10 @@
     <string name="title_activity_text_input_demo">TextInputLayout sample</string>
     <string name="title_activity_floating_action_button_demo">FloatingActionButton sample</string>
     <string name="title_activity_snackbar_demo">Snackbar sample</string>
+    
+    <string name="first">First</string>
+    <string name="floating_action_button">FloatingActionButton</string>
+    <string name="snackbar">Snackbar</string>
+    <string name="percent_frame_layout">PercentFrameLayout</string>
+    <string name="text_input_layout">TextInputLayout</string>
 </resources>
